@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <select name="range" id="date-range" oninput="drawMap()">
+            <option value="Day" selected>Day</option>
+            <option value="Month">Month</option>
+        </select>
+
+        <select name="choosemonth" id="choosemonth">
+            <option value="February 2023"> February 2023 </option>
+            <option value="January 2023">January 2023</option>
+        </select>
+        <div id="fullpage">
+        <div id="checkboxes">
+            <input type="checkbox" class="featurebox" id="acousticness" name="acousticness" onclick="drawMap()" checked>
+            <label for="acousticness" class="text">acousticness</label><br>
+            <input type="checkbox" class="featurebox" id="danceability" name="danceability" onclick="drawMap()" checked>
+            <label for="danceability" class="text">danceability</label><br>
+            <input type="checkbox" class="featurebox" id="energy" name="energy" onclick="drawMap()" checked>
+            <label for="energy" class="text">energy</label><br>
+            <input type="checkbox" class="featurebox" id="tempo" name="tempo" onclick="drawMap()" checked>
+            <label for="tempo" class="text">tempo</label><br>
+            <input type="checkbox" class="featurebox" id="valence" name="valence" onclick="drawMap()" checked>
+            <label for="valence" class="text">valence</label><br>
+            <input type="checkbox" class="featurebox" id="loudness" name="loudness" onclick="drawMap()" checked>
+            <label for="loudness" class="text" >loudness</label><br>
+            <input type="checkbox" class="featurebox" id="speechiness" name="speechiness" onclick="drawMap()" checked>
+            <label for="speechiness" class="text">speechiness</label><br>
+        </div>
+
+        <div id="chart"></div> 
+        <div id="wrapper3">
+            <form autocomplete="off" action="/action_page.php">
+                <div class="autocomplete" style="width:300px;">
+                  <input id="myInput" type="text" name="myCountry" placeholder="Search for a Song!">
+                </div>
+              </form>
+
+        </div>
+        <div id="searchresults"></div>
+        <div id="wrapper">
+            <div id="artists"></div>
+            <div id="songs"></div>
+        </div>
+        <div id="stroke">
+            <input type="radio" id="black" name="stroke" onclick="drawMap()">
+            <label for="html" class="text">Black</label><br>
+            <input type="radio" id="white" name="stroke" onclick="drawMap()">
+            <label for="css" class="text">White</label><br>
+            <input type="radio" id="none" name="stroke" onclick="drawMap()" checked>
+            <label for="javascript" class="text">None</label>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="200" value="120" class="slider" id="myRange" oninput="drawMap()">
+            </div>
+            <form id="colors">
+            <p>Choose your visualization colors:</p>
+            <div>
+                <form>
+                <input type="color" id="color1" name="color1"
+                    class="color" value="#FADAA1" oninput="drawMap()">
+                <label for="color1">Color 1</label>
+            </div>
+            <div>
+                <input type="color" id="color2" class="color" name="color2"
+                        value="#FF3A34" oninput="drawMap()">
+                <label for="color2">Color 2</label>
+            </div>
+                <input type="color" id="color3" class="color" name="color3"
+                value="#386D95" oninput="drawMap()">
+                <label for="color3">Color 3</label>
+            </div>
+            <input type="reset" onclick="colorReset()">
+            <div id="key" style="width:50px;height:100px;"></div>
+        </form>
+        </div>
+    </div>
+    <div class="range">
+        <div class="range-slider">
+          <span class="range-selected"></span>
+        </div>
+        <div class="range-input">
+          <input type="range" class="min" min="0" max="100" value="0" step="1" oninput="changeRange()">
+          <input type="range" class="max" min="0" max="100" value="100" step="1" oninput="changeRange()">
+        </div>
+        <div class="range-price">      
+          <label for="min">Min</label>
+          <input type="number" name="min" value="0">      
+          <label for="max">Max</label>
+          <input type="number" name="max" value="100">      
+        </div>
+      </div>   
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
+
+
