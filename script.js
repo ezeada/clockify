@@ -1,7 +1,7 @@
 /* DATA */
 // link to raw data on github
 var dataLink = "https://raw.githubusercontent.com/ezeada/clockify/main/febdata.csv";
-// can't get d3.csv to work :( so my code is absurdly long 
+// can't get d3.csv to work :( so my code is absurdly long because I store my data here
 var rawData = [
 	{
 	   "Artist":"Wednesday Campanella",
@@ -53984,7 +53984,7 @@ function changeRange() {
 	drawMap();
 };
 
-function createKey(colors) {
+function createKey(colors, min, max) {
 	var key = document.getElementById("key");
 	key.style.background = 
 	"linear-gradient(to top, " 
@@ -53994,11 +53994,13 @@ function createKey(colors) {
 	+ ", "
 	+ colors[2] 
 	+ ")";
-	//css.textContent = key.style.background + ";";
+	document.getElementById("0").innerHTML = min.toFixed(0);
+	document.getElementById("50").innerHTML = (min + max/2).toFixed(0);
+	document.getElementById("100").innerHTML = max.toFixed(0);
 };
 
 function colorReset() {
-	document.getElementById("colors").reset();
+	document.getElementById("color").reset();
 	drawMap();
 };
 
@@ -54021,9 +54023,11 @@ function autocomplete(inp, arr) {
 		/*append the DIV element as a child of the autocomplete container:*/
 		this.parentNode.appendChild(a);
 		/*for each item in the array...*/
+		var count = 0; // only show top 8 search results
 		for (i = 0; i < arr.length; i++) {
 		  /*check if the item starts with the same letters as the text field value:*/
-		  if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+		  if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase() && count <=8) {
+			count++;
 			/*create a DIV element for each matching element:*/
 			b = document.createElement("DIV");
 			/*make the matching letters bold:*/
@@ -54121,8 +54125,6 @@ function drawMap() {
 	var radius = parseInt(document.getElementById("myRange").value);
 	var colors = [document.getElementById("color1").value, document.getElementById("color2").value, document.getElementById("color3").value];
 
-	createKey(colors);
-
 	var viewtype = document.getElementById("date-range");
  	var view = viewtype.options[viewtype.selectedIndex].value;
 	var viewnum = 0;
@@ -54136,9 +54138,7 @@ function drawMap() {
 		var segment_labels = ['0:00', '1:00', '2:00', '3:00', '4:00', '5:00', '6:00', '7:00', '8:00', '9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00'];
 		viewnum = 0;
 		numSegments = 24;
-    } else if (view == "Both") {
-		// will implement later
-    }
+	}
 
     var newData = filteredData[viewnum].filter(function(d){
 		return (checkedFeatures.includes(d.Measure));
@@ -54148,12 +54148,16 @@ function drawMap() {
 	var max = document.getElementsByClassName("max")[0].value/100;
 	var domain = [min, (min + max)/2, max];
 
-	document.getElementById("chart").innerHTML = ""; // reset div
-	loadCircularHeatMap(newData, "#chart", checkedFeatures, segment_labels, stroke, radius, colors, numSegments, domain);
+	createKey(colors, min * 100, max * 100);
+
+	// reset divs
+	document.getElementById("chart").innerHTML = ""; 
+	document.getElementById("artists").innerHTML = "";
+	document.getElementById("songs").innerHTML = "";
+	loadCircularHeatMap(newData, "#chart", checkedFeatures, segment_labels, stroke, radius, colors, numSegments, domain, viewnum);
 };
 
 function showStats(input) {
-	//let input = document.getElementById("searchbar").value;
 	d3.select("#searchresults").html(' '); // clear div
 	if (input) {
 		var stats = getStats(input);
@@ -54162,8 +54166,7 @@ function showStats(input) {
 		var end = " than other songs you listened to this month. </br>"
 		var time = parseInt(stats[1]).toString() + ":00";
 		d3.select('#searchresults')
-			.html("You listened to this song " + stats[0] + " times in the past month, usually at " + time + " </br>" + start + stats[2] + "% " + phrases[0] + end + start + stats[3] + "% " + phrases[1] + end + start + stats[4] + "% " + phrases[2] + end + start + stats[5] + "% " + phrases[3] + end + start + stats[6] + "% " + phrases[4] + end + start + stats[7] + "% " + phrases[5] + end + start + stats[8] + "% " + phrases[6] + end + start + stats[9] + "% " + phrases[7] + end);
-		//searchbar.value = "" // clear searchbar 
+			.html("You listened to this song " + stats[0] + " times in the past month, usually at " + time + ". </br> </br>" + start + stats[2] + "% " + phrases[0] + end + start + stats[3] + "% " + phrases[1] + end + start + stats[4] + "% " + phrases[2] + end + start + stats[5] + "% " + phrases[3] + end + start + stats[6] + "% " + phrases[4] + end + start + stats[7] + "% " + phrases[5] + end + start + stats[8] + "% " + phrases[6] + end + start + stats[9] + "% " + phrases[7] + end);
 	}
 }
 
@@ -54252,151 +54255,165 @@ function searchSong() {
 };
 
 /* Radial Heat Chart code adapted from blackmiaool on jsFiddle: https://jsfiddle.net/blackmiaool/7dq4a040/1/ */
-function loadCircularHeatMap(dataset, dom_element_to_append_to, radial_labels, segment_labels, stroke, radius, colors, numSegments, domain) {
+function loadCircularHeatMap(dataset, dom_element_to_append_to, radial_labels, segment_labels, stroke, radius, colors, numSegments, domain, viewnum) {
 
-  var margin = {
-    top: 50,
-    right: 50,
-    bottom: 10,
-    left: 50
-  };
-  
-  var width = 800 - margin.left - margin.right;
-  var height = width;
-  var innerRadius = radius;
-  var segmentHeight = (width - margin.top - margin.bottom - 2 * innerRadius) / (2 * radial_labels.length);
+	var margin = {
+		top: 50,
+		right: 0,
+		bottom: 50,
+		left: 0
+	};
 
-  var chart = circularHeatChart(stroke, radius, numSegments)
-    .innerRadius(radius)
-    .segmentHeight(segmentHeight)
-    .domain(domain) // change for z score
-    .range(colors)
-    .radialLabels(radial_labels)
-    .segmentLabels(segment_labels);
+	var box = document.querySelector('#chart');
+	var width = box.offsetWidth + 100;
+	var height = box.offsetHeight + 100;
 
-  chart.accessor(function(d) {
-    return d.ScaledAverage;
-  })
+	var innerRadius = radius;
+	var segmentHeight = (width - margin.top - margin.bottom - 2 * innerRadius) / (2 * radial_labels.length);
 
-  var svg = d3.select(dom_element_to_append_to)
-    .selectAll('svg')
-    .data([dataset]) 
-    .enter()
-    .append('svg')
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append('g')
-    .attr("transform",
-      "translate(" + ((width) / 2 - (radial_labels.length * segmentHeight + innerRadius)) + "," + margin.top + ")")
-    .call(chart);
+	var chart = circularHeatChart(stroke, radius, numSegments)
+	.innerRadius(radius)
+	.segmentHeight(segmentHeight)
+	.domain(domain)
+	.range(colors)
+	.radialLabels(radial_labels)
+	.segmentLabels(segment_labels);
 
-  var tooltip = d3.select(dom_element_to_append_to) // #chart
-    .append('div')
-    .attr('class', 'tooltip');
+	chart.accessor(function(d) {
+	return d.ScaledAverage;
+	})
 
-  tooltip.append('div') // class for each data value we want to show in tooltop
-    .attr('class', 'Time');
-  //tooltip.append('div')
-   // .attr('class', 'Average');
-  tooltip.append('div')
-    .attr('class', 'Measure');
+	var svg = d3.select(dom_element_to_append_to)
+	.selectAll('svg')
+	.data([dataset]) 
+	.enter()
+	.append('svg')
+	.attr("width", width + margin.left + margin.right)
+	.attr("height", height + margin.top + margin.bottom)
+	.append('g')
+	.attr("transform",
+		"translate(" + ((width) / 2 - (radial_labels.length * segmentHeight + innerRadius)) + "," + margin.top + ")")
+	.call(chart);
 
-  svg.selectAll("path")
-  	// click on section and revela top artists and songs for that hour
-    .on('click', function(d) {
-      if (d.TopArtists[0] != undefined) {
-         d3.select("#artists").html("<b> TOP ARTISTS AT " + d.Time + "</b><br>" + d.TopArtists.join('<br/>'));
-         d3.select("#songs").html("<b> TOP SONGS AT " + d.Time + "</b><br>" + d.TopSongs.join('<br/>'));
-      } else {
-         d3.select("#artists").html("You didn't listen to any music at " + d.Time + "!");
-         d3.select("#songs").html(" ");
-      }
-      
-      })
-    .on('mouseover', function(d,i) {
-      var targetIndex = Math.floor(i / numSegments); //the layer you are hovering
-                var zoomSize = 10; //inner 10px and outer 10px
-                var layerCnt = filteredData[0].length / numSegments;
+	var tooltip = d3.select(dom_element_to_append_to) // #chart
+	.append('div')
+	.attr('class', 'tooltip');
 
-                d3.selectAll("path.segment") //.arc indicates segment
-                    .transition().duration(200) //transtion effect
-                    .attr("d", d3.svg.arc() //set d again
-                        .innerRadius(ir)
-                        .outerRadius(or)
-                        .startAngle(sa)
-                        .endAngle(ea))
+	tooltip.append('div') // class for each data value we want to show in tooltop
+	.attr('class', 'Time');
+	//tooltip.append('div')
+	// .attr('class', 'Average');
+	tooltip.append('div')
+	.attr('class', 'Measure');
 
+	svg.selectAll("path")
+	// click on section and reveal top artists and songs for that day or hour
+	.on('click', function(d) {
+		// accouting for days of the month that don't end in "th"
+		var dates = [['1', '2', '3', '21', '22', '23'], ['1st', '2nd', '3rd', '21st', '22nd', '23rd']];
+		if (d.TopArtists[0] != undefined) {
+			if (viewnum == 0) {
+				d3.select("#artists").html("<b> TOP ARTISTS AT " + d.Time + "</b><br>" + d.TopArtists.join('<br/>'));
+				d3.select("#songs").html("<b> TOP SONGS AT " + d.Time + "</b><br>" + d.TopSongs.join('<br/>'));
+			}
+			else {
+				if (dates[0].includes(d.Time)) {
+					d3.select("#artists").html("<b> TOP ARTISTS ON THE " + dates[1][dates[0].indexOf(d.Time)] + "</b><br>" + d.TopArtists.join('<br/>'));
+					d3.select("#songs").html("<b> TOP SONGS ON THE " + dates[1][dates[0].indexOf(d.Time)] + "</b><br>" + d.TopSongs.join('<br/>'));
+				}
+				else {
+					d3.select("#artists").html("<b> TOP ARTISTS ON THE " + d.Time + "th</b><br>" + d.TopArtists.join('<br/>'));
+					d3.select("#songs").html("<b> TOP SONGS ON THE " + d.Time + "th</b><br>" + d.TopSongs.join('<br/>'));
+				}
+			}
+		} else {
+			if (viewnum == 0) {
+				d3.select("#artists").html("You didn't listen to any music at " + d.Time + "!");
+				d3.select("#songs").html(" ");
+			}
+		}
+		
+		})
+	.on('mouseover', function(d,i) {
+		var targetIndex = Math.floor(i / numSegments); //the layer you are hovering
+				var zoomSize = 10; //inner 10px and outer 10px
+				var layerCnt = filteredData[0].length / numSegments;
 
-                function getRadius(floor) {
-                    if (floor === 0) { //inner radius doesn't change
-                        return innerRadius;
-                    }
-                    if (floor === layerCnt) { //outer radius doesn't change
-                        return innerRadius + layerCnt * segmentHeight;
-                    }
-                    if (floor <= targetIndex) { //it's math
-                        return innerRadius + floor * segmentHeight - zoomSize * (floor / targetIndex);
-                    } else { //math again
-                        return innerRadius + floor * segmentHeight + zoomSize * ((layerCnt - floor) / (layerCnt - targetIndex));
-                    }
-                }
-
-                function ir(d, i) {
-                    return getRadius(Math.floor(i / numSegments));
-                }
-
-                function or(d, i) {
-                    return getRadius(Math.floor(i / numSegments) + 1);
-                }
-      // increase the segment height of the one being hovered as well as all others of the same date
-      // while decreasing the height of all others accordingly
-
-      /*d3.selectAll("path.segment-" + d.Measure).style("opacity", function(p) {
-        return 0.75
-      });*/
-
-      tooltip.select('.Time').html("<b> Time: " + d.Time + "</b>");
-      tooltip.select('.Measure').html("<b> Average " + d.Measure + ": " + d.RealAverage + "</b>");
-     //tooltip.select('.Average').html("<b> Value: " + d.Average + "</b>");
-      tooltip.style('display', 'block');
-      tooltip.style('opacity', 2);
-    })
-    .on('mousemove', function(d) {
-      tooltip.style('top', (d3.event.layerY + 10) + 'px')
-        .style('left', (d3.event.layerX - 25) + 'px');
-    })
-    .on('mouseout', function(d,i) {
-      tooltip.style('display', 'none');
-      tooltip.style('opacity', 25);
-      d3.selectAll("path.segment-" + d.Measure).style("opacity", function(p) {
-        return 1
-      });
-      var targetIndex = Math.floor(i / numSegments);
-                var zoomSize = 10;
-                var layerCnt = filteredData[0].length / numSegments;
+				d3.selectAll("path.segment") //.arc indicates segment
+					.transition().duration(200) //transtion effect
+					.attr("d", d3.svg.arc() //set d again
+						.innerRadius(ir)
+						.outerRadius(or)
+						.startAngle(sa)
+						.endAngle(ea))
 
 
-                d3.selectAll("path.segment")
-                    .transition().duration(200)
-                    .attr("d", d3.svg.arc()
-                        .innerRadius(ir)
-                        .outerRadius(or)
-                        .startAngle(sa)
-                        .endAngle(ea))
+				function getRadius(floor) {
+					if (floor === 0) { //inner radius doesn't change
+						return innerRadius;
+					}
+					if (floor === layerCnt) { //outer radius doesn't change
+						return innerRadius + layerCnt * segmentHeight;
+					}
+					if (floor <= targetIndex) { //it's math
+						return innerRadius + floor * segmentHeight - zoomSize * (floor / targetIndex);
+					} else { //math again
+						return innerRadius + floor * segmentHeight + zoomSize * ((layerCnt - floor) / (layerCnt - targetIndex));
+					}
+				}
 
-                function getRadius(floor) {
-                    return innerRadius + floor * segmentHeight;
-                }
+				function ir(d, i) {
+					return getRadius(Math.floor(i / numSegments));
+				}
 
-                function ir(d, i) {
+				function or(d, i) {
+					return getRadius(Math.floor(i / numSegments) + 1);
+				}
+		// increase the segment height of the one being hovered as well as all others of the same date
+		// while decreasing the height of all others accordingly
 
-                    return getRadius(Math.floor(i / numSegments));
-                }
+		tooltip.select('.Time').html("<b> Time: " + d.Time + "</b>");
+		tooltip.select('.Measure').html("<b> Average " + d.Measure + ": " + d.RealAverage + "</b>");
+		//tooltip.select('.Average').html("<b> Value: " + d.Average + "</b>");
+		tooltip.style('display', 'block');
+		tooltip.style('opacity', 2);
+	})
+	.on('mousemove', function(d) {
+		tooltip.style('top', (d3.event.layerY + 10) + 'px')
+		.style('left', (d3.event.layerX - 25) + 'px');
+	})
+	.on('mouseout', function(d,i) {
+		tooltip.style('display', 'none');
+		tooltip.style('opacity', 25);
+		d3.selectAll("path.segment-" + d.Measure).style("opacity", function(p) {
+		return 1
+		});
+		var targetIndex = Math.floor(i / numSegments);
+				var zoomSize = 10;
+				var layerCnt = filteredData[0].length / numSegments;
 
-                function or(d, i) {
-                    return getRadius(Math.floor(i / numSegments) + 1);
-                }
-    });
+
+				d3.selectAll("path.segment")
+					.transition().duration(200)
+					.attr("d", d3.svg.arc()
+						.innerRadius(ir)
+						.outerRadius(or)
+						.startAngle(sa)
+						.endAngle(ea))
+
+				function getRadius(floor) {
+					return innerRadius + floor * segmentHeight;
+				}
+
+				function ir(d, i) {
+
+					return getRadius(Math.floor(i / numSegments));
+				}
+
+				function or(d, i) {
+					return getRadius(Math.floor(i / numSegments) + 1);
+				}
+	});
 };
 
 function circularHeatChart(stroke, radius, numSegments) {
