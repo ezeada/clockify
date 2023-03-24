@@ -8,13 +8,18 @@ hours = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [],
 days = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
 feature_names = ["acousticness", "danceability", "energy", "tempo", "valence", "loudness", "insturmentalness", "speechiness"]
 
-# not perfect, will fix
+
 def get_cdf(hours, currhour, feature_ind):
   # calulate median of this hour
   median = np.median(np.array([float(j[feature_ind]) for j in hours[currhour]]))
-  # get feature across all feaures and calculate cdf
-  feature  = np.array([float(j[feature_ind]) for j in hours[currhour]])
-  cdf = stats.norm.cdf(median, np.mean(feature), np.std(feature))
+  # get feature across all hours and calculate cdf
+  x = []
+  for hour in hours:
+    for i in hour:
+      x.append(float(i[feature_ind]))
+
+  x = np.array(x)
+  cdf = stats.norm.cdf(median, np.mean(x), np.std(x))
 
   return [round(cdf, 2),round(median, 2)]
 
@@ -53,13 +58,9 @@ def getRawData(filename):
             rawData.append(data)
             hours[hour].append(row)
             days[day - 1].append(row)
-
-  with open("rawdata.json", "w") as outfile:
-    json.dump(rawData, outfile)
-   
+  
 def getDailyData():
   entries = []  
-
   for j in range(len(feature_names)):
     for i in range(len(hours)): 
       # this format is weirder, but fits d3 better (each measure and hour has its own entry)
