@@ -260,3 +260,18 @@ label {
   font-family: Arial;
   color:#E1EAF9;
 }
+
+#methods {
+  position: relative;
+  margin-top: 81%;
+  margin-left: 82%;
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50px;
+  background-color: white;
+  border: solid #d4d4d4 2px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 14px;
+}
