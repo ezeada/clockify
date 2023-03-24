@@ -6,7 +6,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"0:00",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.56,
 	   "RealAverage":0.33,
 	   "TopSongs":[
 		  "NITROUS",
@@ -22,7 +22,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"1:00",
-	   "ScaledAverage":0.29,
+	   "ScaledAverage":0.22,
 	   "RealAverage":0.03,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -38,7 +38,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"2:00",
-	   "ScaledAverage":0.29,
+	   "ScaledAverage":0.2,
 	   "RealAverage":0.01,
 	   "TopSongs":[
 		  "Hello Bitches",
@@ -78,7 +78,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"5:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.26,
 	   "RealAverage":0.07,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -94,7 +94,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"6:00",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.25,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "Fear",
@@ -110,7 +110,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"7:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.26,
 	   "RealAverage":0.07,
 	   "TopSongs":[
 		  "Checklist (feat. Chromeo)",
@@ -126,7 +126,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"8:00",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.41,
 	   "TopSongs":[
 		  "Cheshire",
@@ -142,7 +142,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"9:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.39,
 	   "RealAverage":0.19,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -158,7 +158,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"10:00",
-	   "ScaledAverage":0.3,
+	   "ScaledAverage":0.29,
 	   "RealAverage":0.1,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -174,7 +174,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"11:00",
-	   "ScaledAverage":0.29,
+	   "ScaledAverage":0.27,
 	   "RealAverage":0.09,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -190,7 +190,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"12:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.23,
 	   "RealAverage":0.04,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -206,7 +206,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"13:00",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.28,
 	   "RealAverage":0.09,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -222,7 +222,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"14:00",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.27,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -238,7 +238,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"15:00",
-	   "ScaledAverage":0.3,
+	   "ScaledAverage":0.28,
 	   "RealAverage":0.09,
 	   "TopSongs":[
 		  "NITROUS",
@@ -254,7 +254,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"16:00",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.34,
 	   "RealAverage":0.15,
 	   "TopSongs":[
 		  "Tally",
@@ -270,7 +270,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"17:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.33,
 	   "RealAverage":0.14,
 	   "TopSongs":[
 		  "Tally",
@@ -286,7 +286,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"18:00",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.26,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "PANDORA",
@@ -302,7 +302,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"19:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.27,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "PANDORA",
@@ -318,7 +318,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"20:00",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.37,
 	   "RealAverage":0.17,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -334,7 +334,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"21:00",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.4,
 	   "RealAverage":0.2,
 	   "TopSongs":[
 		  "Let You Break My Heart Again",
@@ -350,7 +350,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"22:00",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.37,
 	   "RealAverage":0.17,
 	   "TopSongs":[
 		  "PANDORA",
@@ -366,7 +366,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"23:00",
-	   "ScaledAverage":0.37,
+	   "ScaledAverage":0.44,
 	   "RealAverage":0.23,
 	   "TopSongs":[
 		  "Act Up",
@@ -382,7 +382,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"0:00",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.53,
 	   "RealAverage":0.65,
 	   "TopSongs":[
 		  "NITROUS",
@@ -398,7 +398,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"1:00",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.63,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -414,7 +414,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"2:00",
-	   "ScaledAverage":0.69,
+	   "ScaledAverage":0.67,
 	   "RealAverage":0.7,
 	   "TopSongs":[
 		  "Hello Bitches",
@@ -454,7 +454,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"5:00",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.12,
 	   "RealAverage":0.46,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -470,7 +470,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"6:00",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.63,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "Fear",
@@ -486,7 +486,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"7:00",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.8,
 	   "RealAverage":0.76,
 	   "TopSongs":[
 		  "Checklist (feat. Chromeo)",
@@ -502,7 +502,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"8:00",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.7,
 	   "TopSongs":[
 		  "Cheshire",
@@ -518,7 +518,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"9:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.47,
 	   "RealAverage":0.63,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -534,7 +534,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"10:00",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.56,
 	   "RealAverage":0.66,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -550,7 +550,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"11:00",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.59,
 	   "RealAverage":0.67,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -566,7 +566,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"12:00",
-	   "ScaledAverage":0.51,
+	   "ScaledAverage":0.59,
 	   "RealAverage":0.67,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -582,7 +582,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"13:00",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.7,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -598,7 +598,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"14:00",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.57,
 	   "RealAverage":0.66,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -614,7 +614,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"15:00",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.63,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "NITROUS",
@@ -646,7 +646,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"17:00",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "Tally",
@@ -662,7 +662,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"18:00",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.58,
 	   "RealAverage":0.67,
 	   "TopSongs":[
 		  "PANDORA",
@@ -678,7 +678,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"19:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "PANDORA",
@@ -694,7 +694,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"20:00",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.47,
 	   "RealAverage":0.63,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -710,7 +710,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"21:00",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.43,
 	   "RealAverage":0.61,
 	   "TopSongs":[
 		  "Let You Break My Heart Again",
@@ -726,7 +726,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"22:00",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.52,
 	   "RealAverage":0.65,
 	   "TopSongs":[
 		  "PANDORA",
@@ -742,7 +742,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"danceability",
 	   "Time":"23:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.44,
 	   "RealAverage":0.62,
 	   "TopSongs":[
 		  "Act Up",
@@ -758,7 +758,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"0:00",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.38,
 	   "RealAverage":0.56,
 	   "TopSongs":[
 		  "NITROUS",
@@ -774,7 +774,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"1:00",
-	   "ScaledAverage":0.45,
+	   "ScaledAverage":0.5,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -790,7 +790,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"2:00",
-	   "ScaledAverage":0.61,
+	   "ScaledAverage":0.81,
 	   "RealAverage":0.84,
 	   "TopSongs":[
 		  "Hello Bitches",
@@ -830,7 +830,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"5:00",
-	   "ScaledAverage":0.63,
+	   "ScaledAverage":0.71,
 	   "RealAverage":0.76,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -846,7 +846,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"6:00",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.72,
 	   "RealAverage":0.77,
 	   "TopSongs":[
 		  "Fear",
@@ -862,7 +862,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"7:00",
-	   "ScaledAverage":0.62,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.73,
 	   "TopSongs":[
 		  "Checklist (feat. Chromeo)",
@@ -878,7 +878,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"8:00",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.5,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "Cheshire",
@@ -894,7 +894,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"9:00",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.48,
 	   "RealAverage":0.62,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -926,7 +926,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"11:00",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.6,
 	   "RealAverage":0.7,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -942,7 +942,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"12:00",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.72,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -958,7 +958,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"13:00",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.72,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -974,7 +974,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"14:00",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.64,
 	   "RealAverage":0.72,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -990,7 +990,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"15:00",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.6,
 	   "RealAverage":0.7,
 	   "TopSongs":[
 		  "NITROUS",
@@ -1006,7 +1006,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"16:00",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.54,
 	   "RealAverage":0.66,
 	   "TopSongs":[
 		  "Tally",
@@ -1022,7 +1022,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"17:00",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.5,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "Tally",
@@ -1038,7 +1038,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"18:00",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.7,
 	   "RealAverage":0.76,
 	   "TopSongs":[
 		  "PANDORA",
@@ -1054,7 +1054,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"19:00",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.67,
 	   "RealAverage":0.74,
 	   "TopSongs":[
 		  "PANDORA",
@@ -1070,7 +1070,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"20:00",
-	   "ScaledAverage":0.63,
+	   "ScaledAverage":0.57,
 	   "RealAverage":0.68,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -1086,7 +1086,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"21:00",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.46,
 	   "RealAverage":0.61,
 	   "TopSongs":[
 		  "Let You Break My Heart Again",
@@ -1102,7 +1102,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"22:00",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "PANDORA",
@@ -1118,7 +1118,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"energy",
 	   "Time":"23:00",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.59,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "Act Up",
@@ -1134,7 +1134,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"0:00",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.47,
 	   "RealAverage":118.41,
 	   "TopSongs":[
 		  "NITROUS",
@@ -1150,7 +1150,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"1:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.4,
 	   "RealAverage":113.71,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -1166,7 +1166,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"2:00",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.8,
 	   "RealAverage":145.07,
 	   "TopSongs":[
 		  "Hello Bitches",
@@ -1206,7 +1206,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"5:00",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.87,
 	   "RealAverage":153.95,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -1222,7 +1222,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"6:00",
-	   "ScaledAverage":0.47,
+	   "ScaledAverage":0.75,
 	   "RealAverage":140.08,
 	   "TopSongs":[
 		  "Fear",
@@ -1238,7 +1238,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"7:00",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.46,
 	   "RealAverage":118.03,
 	   "TopSongs":[
 		  "Checklist (feat. Chromeo)",
@@ -1254,7 +1254,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"8:00",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.29,
 	   "RealAverage":105.02,
 	   "TopSongs":[
 		  "Cheshire",
@@ -1270,7 +1270,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"9:00",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.4,
 	   "RealAverage":113.5,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -1286,7 +1286,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"10:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.49,
 	   "RealAverage":119.97,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -1302,7 +1302,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"11:00",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.54,
 	   "RealAverage":123.88,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -1318,7 +1318,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"12:00",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.58,
 	   "RealAverage":126.96,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -1334,7 +1334,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"13:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.49,
 	   "RealAverage":119.97,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -1350,7 +1350,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"14:00",
-	   "ScaledAverage":0.51,
+	   "ScaledAverage":0.56,
 	   "RealAverage":125.22,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -1366,7 +1366,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"15:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.57,
 	   "RealAverage":126.01,
 	   "TopSongs":[
 		  "NITROUS",
@@ -1382,7 +1382,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"16:00",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.47,
 	   "RealAverage":118.41,
 	   "TopSongs":[
 		  "Tally",
@@ -1398,7 +1398,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"17:00",
-	   "ScaledAverage":0.51,
+	   "ScaledAverage":0.49,
 	   "RealAverage":119.97,
 	   "TopSongs":[
 		  "Tally",
@@ -1414,7 +1414,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"18:00",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.59,
 	   "RealAverage":127.07,
 	   "TopSongs":[
 		  "PANDORA",
@@ -1430,7 +1430,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"19:00",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.62,
 	   "RealAverage":129.94,
 	   "TopSongs":[
 		  "PANDORA",
@@ -1462,7 +1462,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"21:00",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.42,
 	   "RealAverage":114.93,
 	   "TopSongs":[
 		  "Let You Break My Heart Again",
@@ -1478,7 +1478,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"22:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.48,
 	   "RealAverage":119.45,
 	   "TopSongs":[
 		  "PANDORA",
@@ -1494,7 +1494,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"tempo",
 	   "Time":"23:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.45,
 	   "RealAverage":117.0,
 	   "TopSongs":[
 		  "Act Up",
@@ -1510,7 +1510,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"0:00",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.35,
 	   "RealAverage":0.41,
 	   "TopSongs":[
 		  "NITROUS",
@@ -1526,7 +1526,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"1:00",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.35,
 	   "RealAverage":0.41,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -1542,7 +1542,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"2:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.73,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "Hello Bitches",
@@ -1582,7 +1582,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"5:00",
-	   "ScaledAverage":0.63,
+	   "ScaledAverage":0.43,
 	   "RealAverage":0.46,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -1598,7 +1598,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"6:00",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.69,
 	   "RealAverage":0.62,
 	   "TopSongs":[
 		  "Fear",
@@ -1614,7 +1614,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"7:00",
-	   "ScaledAverage":0.37,
+	   "ScaledAverage":0.42,
 	   "RealAverage":0.45,
 	   "TopSongs":[
 		  "Checklist (feat. Chromeo)",
@@ -1630,7 +1630,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"8:00",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.69,
 	   "RealAverage":0.62,
 	   "TopSongs":[
 		  "Cheshire",
@@ -1646,7 +1646,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"9:00",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.44,
 	   "RealAverage":0.47,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -1662,7 +1662,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"10:00",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.55,
 	   "RealAverage":0.53,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -1678,7 +1678,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"11:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.52,
 	   "RealAverage":0.51,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -1694,7 +1694,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"12:00",
-	   "ScaledAverage":0.42,
+	   "ScaledAverage":0.48,
 	   "RealAverage":0.49,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -1710,7 +1710,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"13:00",
-	   "ScaledAverage":0.51,
+	   "ScaledAverage":0.59,
 	   "RealAverage":0.56,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -1726,7 +1726,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"14:00",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.57,
 	   "RealAverage":0.54,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -1742,7 +1742,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"15:00",
-	   "ScaledAverage":0.44,
+	   "ScaledAverage":0.42,
 	   "RealAverage":0.46,
 	   "TopSongs":[
 		  "NITROUS",
@@ -1758,7 +1758,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"16:00",
-	   "ScaledAverage":0.47,
+	   "ScaledAverage":0.46,
 	   "RealAverage":0.48,
 	   "TopSongs":[
 		  "Tally",
@@ -1774,7 +1774,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"17:00",
-	   "ScaledAverage":0.47,
+	   "ScaledAverage":0.49,
 	   "RealAverage":0.5,
 	   "TopSongs":[
 		  "Tally",
@@ -1790,7 +1790,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"18:00",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.59,
 	   "TopSongs":[
 		  "PANDORA",
@@ -1806,7 +1806,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"19:00",
-	   "ScaledAverage":0.46,
+	   "ScaledAverage":0.52,
 	   "RealAverage":0.51,
 	   "TopSongs":[
 		  "PANDORA",
@@ -1822,7 +1822,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"20:00",
-	   "ScaledAverage":0.46,
+	   "ScaledAverage":0.4,
 	   "RealAverage":0.44,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -1838,7 +1838,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"21:00",
-	   "ScaledAverage":0.47,
+	   "ScaledAverage":0.35,
 	   "RealAverage":0.41,
 	   "TopSongs":[
 		  "Let You Break My Heart Again",
@@ -1870,7 +1870,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"valence",
 	   "Time":"23:00",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.52,
 	   "RealAverage":0.51,
 	   "TopSongs":[
 		  "Act Up",
@@ -1886,7 +1886,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"0:00",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.47,
 	   "RealAverage":-7.41,
 	   "TopSongs":[
 		  "NITROUS",
@@ -1902,7 +1902,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"1:00",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.62,
 	   "RealAverage":-5.62,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -1918,7 +1918,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"2:00",
-	   "ScaledAverage":0.64,
+	   "ScaledAverage":0.77,
 	   "RealAverage":-3.58,
 	   "TopSongs":[
 		  "Hello Bitches",
@@ -1958,7 +1958,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"5:00",
-	   "ScaledAverage":0.65,
+	   "ScaledAverage":0.74,
 	   "RealAverage":-4.05,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -1974,7 +1974,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"6:00",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.7,
 	   "RealAverage":-4.52,
 	   "TopSongs":[
 		  "Fear",
@@ -1990,7 +1990,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"7:00",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.61,
 	   "RealAverage":-5.76,
 	   "TopSongs":[
 		  "Checklist (feat. Chromeo)",
@@ -2006,7 +2006,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"8:00",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.49,
 	   "RealAverage":-7.17,
 	   "TopSongs":[
 		  "Cheshire",
@@ -2022,7 +2022,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"9:00",
-	   "ScaledAverage":0.65,
+	   "ScaledAverage":0.55,
 	   "RealAverage":-6.44,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -2054,7 +2054,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"11:00",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.61,
 	   "RealAverage":-5.74,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -2070,7 +2070,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"12:00",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.67,
 	   "RealAverage":-4.96,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2086,7 +2086,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"13:00",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.64,
 	   "RealAverage":-5.3,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2102,7 +2102,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"14:00",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.61,
 	   "RealAverage":-5.69,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2118,7 +2118,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"15:00",
-	   "ScaledAverage":0.61,
+	   "ScaledAverage":0.67,
 	   "RealAverage":-5.01,
 	   "TopSongs":[
 		  "NITROUS",
@@ -2134,7 +2134,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"16:00",
-	   "ScaledAverage":0.62,
+	   "ScaledAverage":0.59,
 	   "RealAverage":-5.96,
 	   "TopSongs":[
 		  "Tally",
@@ -2150,7 +2150,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"17:00",
-	   "ScaledAverage":0.62,
+	   "ScaledAverage":0.58,
 	   "RealAverage":-6.12,
 	   "TopSongs":[
 		  "Tally",
@@ -2166,7 +2166,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"18:00",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.7,
 	   "RealAverage":-4.5,
 	   "TopSongs":[
 		  "PANDORA",
@@ -2182,7 +2182,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"19:00",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.65,
 	   "RealAverage":-5.16,
 	   "TopSongs":[
 		  "PANDORA",
@@ -2198,7 +2198,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"20:00",
-	   "ScaledAverage":0.64,
+	   "ScaledAverage":0.59,
 	   "RealAverage":-6.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2214,7 +2214,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"21:00",
-	   "ScaledAverage":0.64,
+	   "ScaledAverage":0.55,
 	   "RealAverage":-6.45,
 	   "TopSongs":[
 		  "Let You Break My Heart Again",
@@ -2230,7 +2230,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"22:00",
-	   "ScaledAverage":0.63,
+	   "ScaledAverage":0.6,
 	   "RealAverage":-5.81,
 	   "TopSongs":[
 		  "PANDORA",
@@ -2246,7 +2246,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"loudness",
 	   "Time":"23:00",
-	   "ScaledAverage":0.62,
+	   "ScaledAverage":0.58,
 	   "RealAverage":-6.04,
 	   "TopSongs":[
 		  "Act Up",
@@ -2262,7 +2262,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"0:00",
-	   "ScaledAverage":0.27,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "NITROUS",
@@ -2278,7 +2278,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"1:00",
-	   "ScaledAverage":0.39,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -2294,7 +2294,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"2:00",
-	   "ScaledAverage":"NaN",
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Hello Bitches",
@@ -2334,7 +2334,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"5:00",
-	   "ScaledAverage":0.27,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -2350,7 +2350,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"6:00",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Fear",
@@ -2366,7 +2366,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"7:00",
-	   "ScaledAverage":0.39,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Checklist (feat. Chromeo)",
@@ -2382,7 +2382,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"8:00",
-	   "ScaledAverage":0.3,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Cheshire",
@@ -2398,7 +2398,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"9:00",
-	   "ScaledAverage":0.29,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -2430,7 +2430,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"11:00",
-	   "ScaledAverage":0.42,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -2446,7 +2446,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"12:00",
-	   "ScaledAverage":0.42,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2462,7 +2462,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"13:00",
-	   "ScaledAverage":0.43,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2478,7 +2478,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"14:00",
-	   "ScaledAverage":0.45,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2494,7 +2494,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"15:00",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "NITROUS",
@@ -2510,7 +2510,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"16:00",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Tally",
@@ -2526,7 +2526,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"17:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Tally",
@@ -2542,7 +2542,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"18:00",
-	   "ScaledAverage":0.42,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "PANDORA",
@@ -2558,7 +2558,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"19:00",
-	   "ScaledAverage":0.42,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "PANDORA",
@@ -2574,7 +2574,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"20:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2590,7 +2590,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"21:00",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Let You Break My Heart Again",
@@ -2606,7 +2606,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"22:00",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "PANDORA",
@@ -2622,7 +2622,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"23:00",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Act Up",
@@ -2638,7 +2638,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"0:00",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.28,
 	   "RealAverage":0.04,
 	   "TopSongs":[
 		  "NITROUS",
@@ -2654,7 +2654,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"1:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.29,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -2670,7 +2670,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"2:00",
-	   "ScaledAverage":0.45,
+	   "ScaledAverage":0.76,
 	   "RealAverage":0.16,
 	   "TopSongs":[
 		  "Hello Bitches",
@@ -2710,7 +2710,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"5:00",
-	   "ScaledAverage":0.7,
+	   "ScaledAverage":0.98,
 	   "RealAverage":0.28,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -2726,7 +2726,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"6:00",
-	   "ScaledAverage":0.64,
+	   "ScaledAverage":0.97,
 	   "RealAverage":0.26,
 	   "TopSongs":[
 		  "Fear",
@@ -2742,7 +2742,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"7:00",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.1,
 	   "TopSongs":[
 		  "Checklist (feat. Chromeo)",
@@ -2758,7 +2758,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"8:00",
-	   "ScaledAverage":0.38,
+	   "ScaledAverage":0.31,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "Cheshire",
@@ -2790,7 +2790,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"10:00",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.35,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -2806,7 +2806,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"11:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.33,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -2822,7 +2822,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"12:00",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.37,
 	   "RealAverage":0.07,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2838,7 +2838,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"13:00",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.37,
 	   "RealAverage":0.07,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2854,7 +2854,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"14:00",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.39,
 	   "RealAverage":0.07,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2870,7 +2870,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"15:00",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.31,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "NITROUS",
@@ -2886,7 +2886,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"16:00",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.31,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "Tally",
@@ -2902,7 +2902,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"17:00",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.32,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "Tally",
@@ -2918,7 +2918,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"18:00",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.44,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "PANDORA",
@@ -2950,7 +2950,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"20:00",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.31,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -2966,7 +2966,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"21:00",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.3,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "Let You Break My Heart Again",
@@ -2982,7 +2982,7 @@ var filteredDataTime = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"22:00",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.32,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "PANDORA",
@@ -3011,12 +3011,12 @@ var filteredDataTime = [
 		  "Clairo"
 	   ]
 	}
-];
+]
 var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"1",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.35,
 	   "RealAverage":0.16,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -3032,7 +3032,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"2",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.28,
 	   "RealAverage":0.09,
 	   "TopSongs":[
 		  "Drunk in Love Remix (feat. Jay-Z & Kanye West)",
@@ -3048,7 +3048,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"3",
-	   "ScaledAverage":0.3,
+	   "ScaledAverage":0.27,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -3064,7 +3064,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"4",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.26,
 	   "RealAverage":0.07,
 	   "TopSongs":[
 		  "Kiss It Better",
@@ -3080,7 +3080,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"5",
-	   "ScaledAverage":0.38,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.16,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3096,7 +3096,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"6",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.16,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3112,7 +3112,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"7",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.27,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -3128,7 +3128,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"8",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.24,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3144,7 +3144,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"9",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.16,
 	   "TopSongs":[
 		  "Kyo181",
@@ -3160,7 +3160,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"10",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.31,
 	   "RealAverage":0.12,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -3176,7 +3176,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"11",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.28,
 	   "RealAverage":0.09,
 	   "TopSongs":[
 		  "All I Wanted",
@@ -3192,7 +3192,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"12",
-	   "ScaledAverage":0.3,
+	   "ScaledAverage":0.28,
 	   "RealAverage":0.09,
 	   "TopSongs":[
 		  "CUFF IT - ACAPELLA VERSION",
@@ -3208,7 +3208,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"13",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.27,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "Dont Make it Harder on Me",
@@ -3224,7 +3224,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"14",
-	   "ScaledAverage":0.39,
+	   "ScaledAverage":0.54,
 	   "RealAverage":0.31,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3240,7 +3240,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"15",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.41,
 	   "RealAverage":0.2,
 	   "TopSongs":[
 		  "PANDORA",
@@ -3256,7 +3256,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"16",
-	   "ScaledAverage":0.47,
+	   "ScaledAverage":0.64,
 	   "RealAverage":0.39,
 	   "TopSongs":[
 		  "NITROUS",
@@ -3272,7 +3272,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"17",
-	   "ScaledAverage":0.27,
+	   "ScaledAverage":0.28,
 	   "RealAverage":0.09,
 	   "TopSongs":[
 		  "Tomorrow 2 (with Cardi B)",
@@ -3288,7 +3288,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"18",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.22,
 	   "RealAverage":0.03,
 	   "TopSongs":[
 		  "Tally",
@@ -3304,7 +3304,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"19",
-	   "ScaledAverage":0.3,
+	   "ScaledAverage":0.27,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "Tally",
@@ -3320,7 +3320,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"20",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.21,
 	   "RealAverage":0.02,
 	   "TopSongs":[
 		  "PANDORA",
@@ -3336,7 +3336,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"21",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.26,
 	   "RealAverage":0.07,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3352,7 +3352,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"22",
-	   "ScaledAverage":0.37,
+	   "ScaledAverage":0.4,
 	   "RealAverage":0.2,
 	   "TopSongs":[
 		  "NITROUS",
@@ -3368,7 +3368,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"23",
-	   "ScaledAverage":0.37,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.29,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3384,7 +3384,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"24",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.31,
 	   "RealAverage":0.12,
 	   "TopSongs":[
 		  "28 Reasons",
@@ -3400,7 +3400,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"25",
-	   "ScaledAverage":0.27,
+	   "ScaledAverage":0.37,
 	   "RealAverage":0.17,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -3432,7 +3432,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"27",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.27,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -3448,7 +3448,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"acousticness",
 	   "Time":"28",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.48,
 	   "RealAverage":0.26,
 	   "TopSongs":[
 		  "Crazy",
@@ -3464,7 +3464,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"1",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.58,
 	   "RealAverage":0.67,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -3480,7 +3480,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"2",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.64,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "Drunk in Love Remix (feat. Jay-Z & Kanye West)",
@@ -3496,7 +3496,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"3",
-	   "ScaledAverage":0.51,
+	   "ScaledAverage":0.59,
 	   "RealAverage":0.67,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -3512,7 +3512,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"4",
-	   "ScaledAverage":0.53,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.7,
 	   "TopSongs":[
 		  "Kiss It Better",
@@ -3528,7 +3528,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"5",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.69,
 	   "RealAverage":0.72,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3544,7 +3544,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"6",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.46,
 	   "RealAverage":0.62,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3560,7 +3560,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"7",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.52,
 	   "RealAverage":0.65,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -3576,7 +3576,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"8",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.46,
 	   "RealAverage":0.62,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3592,7 +3592,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"9",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.56,
 	   "RealAverage":0.66,
 	   "TopSongs":[
 		  "Kyo181",
@@ -3608,7 +3608,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"10",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.61,
 	   "RealAverage":0.68,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -3624,7 +3624,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"11",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.58,
 	   "RealAverage":0.67,
 	   "TopSongs":[
 		  "All I Wanted",
@@ -3640,7 +3640,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"12",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.58,
 	   "RealAverage":0.67,
 	   "TopSongs":[
 		  "CUFF IT - ACAPELLA VERSION",
@@ -3656,7 +3656,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"13",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.57,
 	   "RealAverage":0.66,
 	   "TopSongs":[
 		  "Dont Make it Harder on Me",
@@ -3672,7 +3672,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"14",
-	   "ScaledAverage":0.53,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3688,7 +3688,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"15",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "PANDORA",
@@ -3704,7 +3704,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"16",
-	   "ScaledAverage":0.53,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "NITROUS",
@@ -3720,7 +3720,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"17",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.56,
 	   "RealAverage":0.66,
 	   "TopSongs":[
 		  "Tomorrow 2 (with Cardi B)",
@@ -3736,7 +3736,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"18",
-	   "ScaledAverage":0.62,
+	   "ScaledAverage":0.63,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "Tally",
@@ -3752,7 +3752,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"19",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.63,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "Tally",
@@ -3768,7 +3768,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"20",
-	   "ScaledAverage":0.53,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "PANDORA",
@@ -3784,7 +3784,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"21",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.63,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3800,7 +3800,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"22",
-	   "ScaledAverage":0.61,
+	   "ScaledAverage":0.64,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "NITROUS",
@@ -3816,7 +3816,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"23",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.47,
 	   "RealAverage":0.63,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -3832,7 +3832,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"24",
-	   "ScaledAverage":0.63,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.7,
 	   "TopSongs":[
 		  "28 Reasons",
@@ -3848,7 +3848,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"25",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -3864,7 +3864,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"26",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.69,
 	   "RealAverage":0.71,
 	   "TopSongs":[
 		  "OMG",
@@ -3880,7 +3880,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"27",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.64,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -3896,7 +3896,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"danceability",
 	   "Time":"28",
-	   "ScaledAverage":0.53,
+	   "ScaledAverage":0.41,
 	   "RealAverage":0.6,
 	   "TopSongs":[
 		  "Crazy",
@@ -3912,7 +3912,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"1",
-	   "ScaledAverage":0.53,
+	   "ScaledAverage":0.57,
 	   "RealAverage":0.68,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -3928,7 +3928,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"2",
-	   "ScaledAverage":0.51,
+	   "ScaledAverage":0.58,
 	   "RealAverage":0.68,
 	   "TopSongs":[
 		  "Drunk in Love Remix (feat. Jay-Z & Kanye West)",
@@ -3944,7 +3944,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"3",
-	   "ScaledAverage":0.67,
+	   "ScaledAverage":0.74,
 	   "RealAverage":0.79,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -3960,7 +3960,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"4",
-	   "ScaledAverage":0.61,
+	   "ScaledAverage":0.66,
 	   "RealAverage":0.73,
 	   "TopSongs":[
 		  "Kiss It Better",
@@ -3992,7 +3992,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"6",
-	   "ScaledAverage":0.63,
+	   "ScaledAverage":0.61,
 	   "RealAverage":0.7,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4008,7 +4008,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"7",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.59,
 	   "RealAverage":0.69,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -4024,7 +4024,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"8",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.63,
 	   "RealAverage":0.71,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4056,7 +4056,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"10",
-	   "ScaledAverage":0.63,
+	   "ScaledAverage":0.66,
 	   "RealAverage":0.73,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -4072,7 +4072,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"11",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.61,
 	   "RealAverage":0.7,
 	   "TopSongs":[
 		  "All I Wanted",
@@ -4088,7 +4088,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"12",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.62,
 	   "RealAverage":0.71,
 	   "TopSongs":[
 		  "CUFF IT - ACAPELLA VERSION",
@@ -4104,7 +4104,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"13",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.67,
 	   "RealAverage":0.74,
 	   "TopSongs":[
 		  "Dont Make it Harder on Me",
@@ -4120,7 +4120,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"14",
-	   "ScaledAverage":0.61,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4136,7 +4136,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"15",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.5,
 	   "RealAverage":0.63,
 	   "TopSongs":[
 		  "PANDORA",
@@ -4152,7 +4152,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"16",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.39,
 	   "RealAverage":0.57,
 	   "TopSongs":[
 		  "NITROUS",
@@ -4168,7 +4168,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"17",
-	   "ScaledAverage":0.67,
+	   "ScaledAverage":0.66,
 	   "RealAverage":0.73,
 	   "TopSongs":[
 		  "Tomorrow 2 (with Cardi B)",
@@ -4184,7 +4184,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"18",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.5,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "Tally",
@@ -4200,7 +4200,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"19",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.5,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "Tally",
@@ -4216,7 +4216,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"20",
-	   "ScaledAverage":0.29,
+	   "ScaledAverage":0.5,
 	   "RealAverage":0.64,
 	   "TopSongs":[
 		  "PANDORA",
@@ -4232,7 +4232,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"21",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.63,
 	   "RealAverage":0.71,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4248,7 +4248,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"22",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.72,
 	   "TopSongs":[
 		  "NITROUS",
@@ -4264,7 +4264,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"23",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.39,
 	   "RealAverage":0.57,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4280,7 +4280,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"24",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.7,
 	   "RealAverage":0.76,
 	   "TopSongs":[
 		  "28 Reasons",
@@ -4296,7 +4296,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"25",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.39,
 	   "RealAverage":0.57,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -4312,7 +4312,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"26",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.64,
 	   "RealAverage":0.72,
 	   "TopSongs":[
 		  "OMG",
@@ -4328,7 +4328,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"27",
-	   "ScaledAverage":0.59,
+	   "ScaledAverage":0.64,
 	   "RealAverage":0.72,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -4344,7 +4344,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"energy",
 	   "Time":"28",
-	   "ScaledAverage":0.52,
+	   "ScaledAverage":0.39,
 	   "RealAverage":0.57,
 	   "TopSongs":[
 		  "Crazy",
@@ -4360,7 +4360,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"1",
-	   "ScaledAverage":0.52,
+	   "ScaledAverage":0.56,
 	   "RealAverage":125.09,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -4376,7 +4376,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"2",
-	   "ScaledAverage":0.53,
+	   "ScaledAverage":0.52,
 	   "RealAverage":121.96,
 	   "TopSongs":[
 		  "Drunk in Love Remix (feat. Jay-Z & Kanye West)",
@@ -4392,7 +4392,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"3",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.24,
 	   "RealAverage":100.09,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -4408,7 +4408,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"4",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.56,
 	   "RealAverage":124.89,
 	   "TopSongs":[
 		  "Kiss It Better",
@@ -4424,7 +4424,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"5",
-	   "ScaledAverage":0.45,
+	   "ScaledAverage":0.42,
 	   "RealAverage":115.02,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4440,7 +4440,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"6",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.38,
 	   "RealAverage":111.94,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4472,7 +4472,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"8",
-	   "ScaledAverage":0.44,
+	   "ScaledAverage":0.46,
 	   "RealAverage":118.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4488,7 +4488,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"9",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.46,
 	   "RealAverage":118.0,
 	   "TopSongs":[
 		  "Kyo181",
@@ -4504,7 +4504,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"10",
-	   "ScaledAverage":0.44,
+	   "ScaledAverage":0.36,
 	   "RealAverage":110.49,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -4520,7 +4520,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"11",
-	   "ScaledAverage":0.52,
+	   "ScaledAverage":0.57,
 	   "RealAverage":125.99,
 	   "TopSongs":[
 		  "All I Wanted",
@@ -4536,7 +4536,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"12",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.55,
 	   "RealAverage":124.15,
 	   "TopSongs":[
 		  "CUFF IT - ACAPELLA VERSION",
@@ -4552,7 +4552,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"13",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.57,
 	   "RealAverage":125.91,
 	   "TopSongs":[
 		  "Dont Make it Harder on Me",
@@ -4568,7 +4568,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"14",
-	   "ScaledAverage":0.46,
+	   "ScaledAverage":0.42,
 	   "RealAverage":115.05,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4584,7 +4584,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"15",
-	   "ScaledAverage":0.52,
+	   "ScaledAverage":0.46,
 	   "RealAverage":117.9,
 	   "TopSongs":[
 		  "PANDORA",
@@ -4600,7 +4600,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"16",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.56,
 	   "RealAverage":124.97,
 	   "TopSongs":[
 		  "NITROUS",
@@ -4616,7 +4616,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"17",
-	   "ScaledAverage":0.47,
+	   "ScaledAverage":0.53,
 	   "RealAverage":122.78,
 	   "TopSongs":[
 		  "Tomorrow 2 (with Cardi B)",
@@ -4632,7 +4632,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"18",
-	   "ScaledAverage":0.64,
+	   "ScaledAverage":0.55,
 	   "RealAverage":124.78,
 	   "TopSongs":[
 		  "Tally",
@@ -4648,7 +4648,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"19",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.49,
 	   "RealAverage":119.96,
 	   "TopSongs":[
 		  "Tally",
@@ -4664,7 +4664,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"20",
-	   "ScaledAverage":0.45,
+	   "ScaledAverage":0.62,
 	   "RealAverage":129.9,
 	   "TopSongs":[
 		  "PANDORA",
@@ -4680,7 +4680,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"21",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.56,
 	   "RealAverage":124.97,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4696,7 +4696,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"22",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.6,
 	   "RealAverage":127.99,
 	   "TopSongs":[
 		  "NITROUS",
@@ -4712,7 +4712,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"23",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.46,
 	   "RealAverage":117.75,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4728,7 +4728,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"24",
-	   "ScaledAverage":0.45,
+	   "ScaledAverage":0.54,
 	   "RealAverage":123.5,
 	   "TopSongs":[
 		  "28 Reasons",
@@ -4744,7 +4744,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"25",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.36,
 	   "RealAverage":110.0,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -4760,7 +4760,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"26",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.54,
 	   "RealAverage":124.01,
 	   "TopSongs":[
 		  "OMG",
@@ -4776,7 +4776,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"27",
-	   "ScaledAverage":0.46,
+	   "ScaledAverage":0.54,
 	   "RealAverage":123.98,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -4792,7 +4792,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"tempo",
 	   "Time":"28",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.45,
 	   "RealAverage":117.1,
 	   "TopSongs":[
 		  "Crazy",
@@ -4808,7 +4808,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"1",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.64,
 	   "RealAverage":0.58,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -4824,7 +4824,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"2",
-	   "ScaledAverage":0.51,
+	   "ScaledAverage":0.59,
 	   "RealAverage":0.55,
 	   "TopSongs":[
 		  "Drunk in Love Remix (feat. Jay-Z & Kanye West)",
@@ -4840,7 +4840,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"3",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.67,
 	   "RealAverage":0.6,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -4856,7 +4856,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"4",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.65,
 	   "RealAverage":0.59,
 	   "TopSongs":[
 		  "Kiss It Better",
@@ -4872,7 +4872,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"5",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.57,
 	   "RealAverage":0.54,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4888,7 +4888,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"6",
-	   "ScaledAverage":0.41,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.42,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4904,7 +4904,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"7",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.35,
 	   "RealAverage":0.41,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -4920,7 +4920,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"8",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.42,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -4936,7 +4936,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"9",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.56,
 	   "RealAverage":0.54,
 	   "TopSongs":[
 		  "Kyo181",
@@ -4952,7 +4952,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"10",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.51,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -4968,7 +4968,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"11",
-	   "ScaledAverage":0.45,
+	   "ScaledAverage":0.35,
 	   "RealAverage":0.41,
 	   "TopSongs":[
 		  "All I Wanted",
@@ -5000,7 +5000,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"13",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.6,
 	   "RealAverage":0.56,
 	   "TopSongs":[
 		  "Dont Make it Harder on Me",
@@ -5016,7 +5016,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"14",
-	   "ScaledAverage":0.54,
+	   "ScaledAverage":0.56,
 	   "RealAverage":0.54,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5048,7 +5048,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"16",
-	   "ScaledAverage":0.39,
+	   "ScaledAverage":0.34,
 	   "RealAverage":0.4,
 	   "TopSongs":[
 		  "NITROUS",
@@ -5064,7 +5064,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"17",
-	   "ScaledAverage":0.5,
+	   "ScaledAverage":0.52,
 	   "RealAverage":0.51,
 	   "TopSongs":[
 		  "Tomorrow 2 (with Cardi B)",
@@ -5080,7 +5080,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"18",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.37,
 	   "RealAverage":0.43,
 	   "TopSongs":[
 		  "Tally",
@@ -5112,7 +5112,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"20",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.45,
 	   "RealAverage":0.47,
 	   "TopSongs":[
 		  "PANDORA",
@@ -5128,7 +5128,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"21",
-	   "ScaledAverage":0.46,
+	   "ScaledAverage":0.49,
 	   "RealAverage":0.5,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5144,7 +5144,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"22",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.42,
 	   "TopSongs":[
 		  "NITROUS",
@@ -5160,7 +5160,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"23",
-	   "ScaledAverage":0.46,
+	   "ScaledAverage":0.38,
 	   "RealAverage":0.43,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5176,7 +5176,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"24",
-	   "ScaledAverage":0.55,
+	   "ScaledAverage":0.62,
 	   "RealAverage":0.57,
 	   "TopSongs":[
 		  "28 Reasons",
@@ -5192,7 +5192,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"25",
-	   "ScaledAverage":0.49,
+	   "ScaledAverage":0.35,
 	   "RealAverage":0.41,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -5208,7 +5208,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"26",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.62,
 	   "RealAverage":0.57,
 	   "TopSongs":[
 		  "OMG",
@@ -5240,7 +5240,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"valence",
 	   "Time":"28",
-	   "ScaledAverage":0.51,
+	   "ScaledAverage":0.45,
 	   "RealAverage":0.47,
 	   "TopSongs":[
 		  "Crazy",
@@ -5256,7 +5256,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"1",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.62,
 	   "RealAverage":-5.58,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -5272,7 +5272,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"2",
-	   "ScaledAverage":0.48,
+	   "ScaledAverage":0.56,
 	   "RealAverage":-6.33,
 	   "TopSongs":[
 		  "Drunk in Love Remix (feat. Jay-Z & Kanye West)",
@@ -5288,7 +5288,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"3",
-	   "ScaledAverage":0.61,
+	   "ScaledAverage":0.7,
 	   "RealAverage":-4.6,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -5304,7 +5304,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"4",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.65,
 	   "RealAverage":-5.28,
 	   "TopSongs":[
 		  "Kiss It Better",
@@ -5320,7 +5320,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"5",
-	   "ScaledAverage":0.57,
+	   "ScaledAverage":0.59,
 	   "RealAverage":-6.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5336,7 +5336,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"6",
-	   "ScaledAverage":0.63,
+	   "ScaledAverage":0.58,
 	   "RealAverage":-6.09,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5352,7 +5352,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"7",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.61,
 	   "RealAverage":-5.73,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -5368,7 +5368,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"8",
-	   "ScaledAverage":0.53,
+	   "ScaledAverage":0.59,
 	   "RealAverage":-6.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5384,7 +5384,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"9",
-	   "ScaledAverage":0.62,
+	   "ScaledAverage":0.61,
 	   "RealAverage":-5.69,
 	   "TopSongs":[
 		  "Kyo181",
@@ -5400,7 +5400,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"10",
-	   "ScaledAverage":0.64,
+	   "ScaledAverage":0.68,
 	   "RealAverage":-4.82,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -5416,7 +5416,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"11",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.61,
 	   "RealAverage":-5.74,
 	   "TopSongs":[
 		  "All I Wanted",
@@ -5432,7 +5432,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"12",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.61,
 	   "RealAverage":-5.74,
 	   "TopSongs":[
 		  "CUFF IT - ACAPELLA VERSION",
@@ -5448,7 +5448,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"13",
-	   "ScaledAverage":0.56,
+	   "ScaledAverage":0.64,
 	   "RealAverage":-5.36,
 	   "TopSongs":[
 		  "Dont Make it Harder on Me",
@@ -5464,7 +5464,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"14",
-	   "ScaledAverage":0.65,
+	   "ScaledAverage":0.52,
 	   "RealAverage":-6.82,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5480,7 +5480,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"15",
-	   "ScaledAverage":0.64,
+	   "ScaledAverage":0.57,
 	   "RealAverage":-6.22,
 	   "TopSongs":[
 		  "PANDORA",
@@ -5496,7 +5496,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"16",
-	   "ScaledAverage":0.52,
+	   "ScaledAverage":0.41,
 	   "RealAverage":-8.14,
 	   "TopSongs":[
 		  "NITROUS",
@@ -5512,7 +5512,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"17",
-	   "ScaledAverage":0.67,
+	   "ScaledAverage":0.59,
 	   "RealAverage":-6.0,
 	   "TopSongs":[
 		  "Tomorrow 2 (with Cardi B)",
@@ -5528,7 +5528,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"18",
-	   "ScaledAverage":0.62,
+	   "ScaledAverage":0.68,
 	   "RealAverage":-4.85,
 	   "TopSongs":[
 		  "Tally",
@@ -5544,7 +5544,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"19",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.64,
 	   "RealAverage":-5.35,
 	   "TopSongs":[
 		  "Tally",
@@ -5560,7 +5560,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"20",
-	   "ScaledAverage":0.47,
+	   "ScaledAverage":0.68,
 	   "RealAverage":-4.85,
 	   "TopSongs":[
 		  "PANDORA",
@@ -5576,7 +5576,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"21",
-	   "ScaledAverage":0.58,
+	   "ScaledAverage":0.62,
 	   "RealAverage":-5.63,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5592,7 +5592,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"22",
-	   "ScaledAverage":0.61,
+	   "ScaledAverage":0.64,
 	   "RealAverage":-5.4,
 	   "TopSongs":[
 		  "NITROUS",
@@ -5608,7 +5608,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"23",
-	   "ScaledAverage":0.63,
+	   "ScaledAverage":0.49,
 	   "RealAverage":-7.21,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5624,7 +5624,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"24",
-	   "ScaledAverage":0.64,
+	   "ScaledAverage":0.77,
 	   "RealAverage":-3.55,
 	   "TopSongs":[
 		  "28 Reasons",
@@ -5640,7 +5640,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"25",
-	   "ScaledAverage":0.62,
+	   "ScaledAverage":0.4,
 	   "RealAverage":-8.25,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -5656,7 +5656,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"26",
-	   "ScaledAverage":0.61,
+	   "ScaledAverage":0.67,
 	   "RealAverage":-4.95,
 	   "TopSongs":[
 		  "OMG",
@@ -5672,7 +5672,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"27",
-	   "ScaledAverage":0.6,
+	   "ScaledAverage":0.68,
 	   "RealAverage":-4.85,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -5688,7 +5688,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"loudness",
 	   "Time":"28",
-	   "ScaledAverage":0.62,
+	   "ScaledAverage":0.54,
 	   "RealAverage":-6.58,
 	   "TopSongs":[
 		  "Crazy",
@@ -5704,7 +5704,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"1",
-	   "ScaledAverage":0.42,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -5720,7 +5720,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"2",
-	   "ScaledAverage":0.42,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Drunk in Love Remix (feat. Jay-Z & Kanye West)",
@@ -5736,7 +5736,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"3",
-	   "ScaledAverage":0.39,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -5752,7 +5752,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"4",
-	   "ScaledAverage":0.43,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Kiss It Better",
@@ -5768,7 +5768,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"5",
-	   "ScaledAverage":0.41,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5784,7 +5784,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"6",
-	   "ScaledAverage":0.38,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5800,7 +5800,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"7",
-	   "ScaledAverage":0.39,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -5816,7 +5816,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"8",
-	   "ScaledAverage":0.42,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5832,7 +5832,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"9",
-	   "ScaledAverage":0.39,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Kyo181",
@@ -5848,7 +5848,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"10",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -5864,7 +5864,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"11",
-	   "ScaledAverage":0.42,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "All I Wanted",
@@ -5880,7 +5880,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"12",
-	   "ScaledAverage":0.44,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "CUFF IT - ACAPELLA VERSION",
@@ -5896,7 +5896,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"13",
-	   "ScaledAverage":0.44,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Dont Make it Harder on Me",
@@ -5912,7 +5912,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"14",
-	   "ScaledAverage":0.25,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -5928,7 +5928,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"15",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "PANDORA",
@@ -5944,7 +5944,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"16",
-	   "ScaledAverage":0.26,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "NITROUS",
@@ -5960,7 +5960,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"17",
-	   "ScaledAverage":0.26,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Tomorrow 2 (with Cardi B)",
@@ -5976,7 +5976,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"18",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Tally",
@@ -5992,7 +5992,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"19",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Tally",
@@ -6008,7 +6008,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"20",
-	   "ScaledAverage":0.45,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "PANDORA",
@@ -6024,7 +6024,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"21",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -6040,7 +6040,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"22",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "NITROUS",
@@ -6056,7 +6056,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"23",
-	   "ScaledAverage":0.29,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -6088,7 +6088,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"25",
-	   "ScaledAverage":0.22,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -6104,7 +6104,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"26",
-	   "ScaledAverage":0.39,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "OMG",
@@ -6120,7 +6120,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"27",
-	   "ScaledAverage":0.44,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -6136,7 +6136,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"insturmentalness",
 	   "Time":"28",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.0,
 	   "TopSongs":[
 		  "Crazy",
@@ -6152,7 +6152,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"1",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.34,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "MOONLIGHT SUNRISE",
@@ -6168,7 +6168,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"2",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.56,
 	   "RealAverage":0.11,
 	   "TopSongs":[
 		  "Drunk in Love Remix (feat. Jay-Z & Kanye West)",
@@ -6184,7 +6184,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"3",
-	   "ScaledAverage":0.39,
+	   "ScaledAverage":0.43,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -6200,7 +6200,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"4",
-	   "ScaledAverage":0.4,
+	   "ScaledAverage":0.61,
 	   "RealAverage":0.12,
 	   "TopSongs":[
 		  "Kiss It Better",
@@ -6216,7 +6216,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"5",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.36,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -6232,7 +6232,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"6",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.32,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -6248,7 +6248,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"7",
-	   "ScaledAverage":0.38,
+	   "ScaledAverage":0.33,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -6264,7 +6264,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"8",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.32,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -6280,7 +6280,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"9",
-	   "ScaledAverage":0.34,
+	   "ScaledAverage":0.33,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "Kyo181",
@@ -6296,7 +6296,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"10",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.32,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "ANTIFRAGILE",
@@ -6312,7 +6312,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"11",
-	   "ScaledAverage":0.37,
+	   "ScaledAverage":0.51,
 	   "RealAverage":0.1,
 	   "TopSongs":[
 		  "All I Wanted",
@@ -6328,7 +6328,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"12",
-	   "ScaledAverage":0.3,
+	   "ScaledAverage":0.35,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "CUFF IT - ACAPELLA VERSION",
@@ -6344,7 +6344,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"13",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.39,
 	   "RealAverage":0.07,
 	   "TopSongs":[
 		  "Dont Make it Harder on Me",
@@ -6360,7 +6360,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"14",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.3,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -6376,7 +6376,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"15",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.32,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "PANDORA",
@@ -6392,7 +6392,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"16",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.29,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "NITROUS",
@@ -6408,7 +6408,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"17",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.34,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "Tomorrow 2 (with Cardi B)",
@@ -6424,7 +6424,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"18",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.28,
 	   "RealAverage":0.04,
 	   "TopSongs":[
 		  "Tally",
@@ -6440,7 +6440,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"19",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.29,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "Tally",
@@ -6456,7 +6456,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"20",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.34,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "PANDORA",
@@ -6472,7 +6472,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"21",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.43,
 	   "RealAverage":0.08,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -6488,7 +6488,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"22",
-	   "ScaledAverage":0.33,
+	   "ScaledAverage":0.31,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "NITROUS",
@@ -6504,7 +6504,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"23",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.32,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "SHOOTING STAR",
@@ -6520,7 +6520,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"24",
-	   "ScaledAverage":0.44,
+	   "ScaledAverage":0.52,
 	   "RealAverage":0.1,
 	   "TopSongs":[
 		  "28 Reasons",
@@ -6536,7 +6536,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"25",
-	   "ScaledAverage":0.36,
+	   "ScaledAverage":0.34,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "Ay-Yo",
@@ -6552,7 +6552,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"26",
-	   "ScaledAverage":0.32,
+	   "ScaledAverage":0.35,
 	   "RealAverage":0.06,
 	   "TopSongs":[
 		  "OMG",
@@ -6568,7 +6568,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"27",
-	   "ScaledAverage":0.31,
+	   "ScaledAverage":0.4,
 	   "RealAverage":0.07,
 	   "TopSongs":[
 		  "Ya Ya Ya",
@@ -6584,7 +6584,7 @@ var filteredDataDay = [
 	{
 	   "Measure":"speechiness",
 	   "Time":"28",
-	   "ScaledAverage":0.35,
+	   "ScaledAverage":0.31,
 	   "RealAverage":0.05,
 	   "TopSongs":[
 		  "Crazy",
@@ -6597,178 +6597,187 @@ var filteredDataDay = [
 		  "Joe Hisaishi"
 	   ]
 	}
-];
+ ]
 var filteredData = [filteredDataTime, filteredDataDay];
 var features = [[], [], [], [], [], [], [], []];
 var radial_labels = ['acousticness', 'danceability', 'energy', 'tempo', 'valence', 'loudness', 'speechiness'];
 var dates = [['1', '2', '3', '21', '22', '23'], ['1st', '2nd', '3rd', '21st', '22nd', '23rd']];
 
 d3.csv(dataLink, function(rawData) {
+	// load day mode first upon start
+	drawMap();
+	var allSongs = createTopSongList();
+	autocomplete(document.getElementById("myInput"), allSongs);
 
-
-/* START UP */
-// load day mode first upon start
-drawMap();
-var allSongs = createTopSongList();
-autocomplete(document.getElementById("myInput"), allSongs);
-
-/* FUNCTIONS with rawdata */
-// adapted from w3 schools https://www.w3schools.com/howto/howto_js_autocomplete.asp -- autocomplete for search 
-function autocomplete(inp, arr) {
-	var currentFocus;
-	inp.addEventListener("input", function(e) {
-		var a, b, i, val = this.value;
-		closeAllLists();
-		if (!val) { return false;}
-		currentFocus = -1;
-		a = document.createElement("DIV");
-		a.setAttribute("id", this.id + "autocomplete-list");
-		a.setAttribute("class", "autocomplete-items");
-		this.parentNode.appendChild(a);
-		var count = 0; // only show top 8 search results
-		for (i = 0; i < arr.length; i++) {
-		  if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase() && count <=8) {
-			count++;
-			b = document.createElement("DIV");
-			b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-			b.innerHTML += arr[i].substr(val.length);
-			b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
-				b.addEventListener("click", function(e) {
-				inp.value = this.getElementsByTagName("input")[0].value;
-				showStats(inp.value);
-				closeAllLists();
-			});
-			a.appendChild(b);
-		  }
+	/* FUNCTIONS with rawdata */
+	// adapted from w3 schools https://www.w3schools.com/howto/howto_js_autocomplete.asp -- autocomplete for search 
+	function autocomplete(inp, arr) {
+		var currentFocus;
+		inp.addEventListener("input", function(e) {
+			var a, b, i, val = this.value;
+			closeAllLists();
+			if (!val) { return false;}
+			currentFocus = -1;
+			a = document.createElement("DIV");
+			a.setAttribute("id", this.id + "autocomplete-list");
+			a.setAttribute("class", "autocomplete-items");
+			this.parentNode.appendChild(a);
+			var count = 0; // only show top 8 search results
+			for (i = 0; i < arr.length; i++) {
+			if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase() && count <=8) {
+				count++;
+				b = document.createElement("DIV");
+				b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+				b.innerHTML += arr[i].substr(val.length);
+				b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+					b.addEventListener("click", function(e) {
+					inp.value = this.getElementsByTagName("input")[0].value;
+					showStats(inp.value);
+					closeAllLists();
+				});
+				a.appendChild(b);
+			}
+			}
+		});
+		// execute a function presses a key on the keyboard:
+		inp.addEventListener("keydown", function(e) {
+			var x = document.getElementById(this.id + "autocomplete-list");
+			if (x) x = x.getElementsByTagName("div");
+			if (e.keyCode == 40) {
+			currentFocus++;
+			addActive(x);
+			} else if (e.keyCode == 38) { //up
+			currentFocus--;
+			addActive(x);
+			} else if (e.keyCode == 13) {
+			e.preventDefault();
+			if (currentFocus > -1) {
+				// and simulate a click on the "active" item:
+				if (x) x[currentFocus].click();
+			}
+			}
+		});
+		// a function to classify an item as "active"
+		function addActive(x) {
+		if (!x) return false;
+		removeActive(x);
+		if (currentFocus >= x.length) currentFocus = 0;
+		if (currentFocus < 0) currentFocus = (x.length - 1);
+		x[currentFocus].classList.add("autocomplete-active");
 		}
-	});
-	// execute a function presses a key on the keyboard:
-	inp.addEventListener("keydown", function(e) {
-		var x = document.getElementById(this.id + "autocomplete-list");
-		if (x) x = x.getElementsByTagName("div");
-		if (e.keyCode == 40) {
-		  currentFocus++;
-		  addActive(x);
-		} else if (e.keyCode == 38) { //up
-		  currentFocus--;
-		  addActive(x);
-		} else if (e.keyCode == 13) {
-		  e.preventDefault();
-		  if (currentFocus > -1) {
-			// and simulate a click on the "active" item:
-			if (x) x[currentFocus].click();
-		  }
+		// a function to remove the "active" class from all autocomplete items
+		function removeActive(x) {
+		for (var i = 0; i < x.length; i++) {
+			x[i].classList.remove("autocomplete-active");
 		}
-	});
-	// a function to classify an item as "active"
-	function addActive(x) {
-	  if (!x) return false;
-	  removeActive(x);
-	  if (currentFocus >= x.length) currentFocus = 0;
-	  if (currentFocus < 0) currentFocus = (x.length - 1);
-	  x[currentFocus].classList.add("autocomplete-active");
-	}
-	// a function to remove the "active" class from all autocomplete items
-	function removeActive(x) {
-	  for (var i = 0; i < x.length; i++) {
-		x[i].classList.remove("autocomplete-active");
-	  }
-	}
-	// close all autocomplete lists in the document, except the one passed as an argument
-	function closeAllLists(elmnt) {
-	  var x = document.getElementsByClassName("autocomplete-items");
-	  for (var i = 0; i < x.length; i++) {
-		if (elmnt != x[i] && elmnt != inp) {
-		x[i].parentNode.removeChild(x[i]);
-	  }
-	}
-  }
-  document.addEventListener("click", function (e) {
-	  closeAllLists(e.target);
-  });
-};
-
-// shows stats for searched song
-function showStats(input) {
-	d3.select("#searchresults").html(' '); // clear div
-	if (input) {
-		var stats = getStats(input);
-		phrases = ["more acoustic", "more danceable", "more energetic", "higher tempo", "more valent", "louder", "more insturmental", "more speechy"]
-		var start = "This song is "
-		var end = " than other songs you listened to this month. </br>"
-		var time = parseInt(stats[1]).toString() + ":00";
-		d3.select('#searchresults')
-			.html("You listened to this song " + stats[0] + " times in the past month, usually at " + time + ". </br> </br>" + start + stats[2] + "% " + phrases[0] + end + start + stats[3] + "% " + phrases[1] + end + start + stats[4] + "% " + phrases[2] + end + start + stats[5] + "% " + phrases[3] + end + start + stats[6] + "% " + phrases[4] + end + start + stats[7] + "% " + phrases[5] + end + start + stats[8] + "% " + phrases[6] + end + start + stats[9] + "% " + phrases[7] + end);
-	}
-}
-
-// creates stats array for specified song
-function getStats(song) {
-	// get number of times song was listened to in the month and average time
-	var count = 0;
-	var times = [];
-	rawData.forEach((d) => (d.Track.toLowerCase() === song && count++ && times.push(parseInt(d.Time.split(":")[0]))));
-	let total = 0;
-	for(var i = 0; i < times.length; i++) {
-		total += times[i];
-	}
-	var avgTime = total / times.length;
-
-	// get corresponding features for song to find percentiles
-	var ind = allSongs.indexOf(song);
-	results = [count, avgTime]
-	for (let i = 0; i < 8; i++) {
-		results.push(getPercentile(i, features[i][ind]));
-	}
-	return results;
-
-
-}
-
-// gets percentile of sing for each feature
-function getPercentile(ind, val) {
-	array = features[ind]
-	//const percentile = (array, val) => {
-	let count = 0;
-	array.forEach(v => {
-		if (v < val) {
-		count++;
-		} else if (v == val) {
-		count += 0.5;
 		}
+		// close all autocomplete lists in the document, except the one passed as an argument
+		function closeAllLists(elmnt) {
+		var x = document.getElementsByClassName("autocomplete-items");
+		for (var i = 0; i < x.length; i++) {
+			if (elmnt != x[i] && elmnt != inp) {
+			x[i].parentNode.removeChild(x[i]);
+		}
+		}
+	}
+	document.addEventListener("click", function (e) {
+		closeAllLists(e.target);
 	});
-	return (100 * count / array.length).toFixed(0);
-}
-
-// creates a list of all unique songs in the dataset (in most listened to least listened to order)
-function createTopSongList() {
-	var songs = [];
-	for (i in rawData) {
-		songs.push(rawData[i].Track.toLowerCase());
-		features[0].push(rawData[i].Acousticness);
-		features[1].push(rawData[i].Danceability);
-		features[2].push(rawData[i].Energy);
-		features[3].push(rawData[i].Tempo);
-		features[4].push(rawData[i].Valence);
-		features[5].push(rawData[i].Loudness);
-		features[6].push(rawData[i].Insturmentalness);
-		features[7].push(rawData[i].Speechiness);
 	};
-    var frequency = {};
 
-    songs.forEach(function(value) { frequency[value] = 0; });
+	// shows stats for searched song
+	function showStats(input) {
+		d3.select("#searchresults").html(' '); // clear div
+		if (input) {
+			var stats = getStats(input);
+			phrases = ["more acoustic", "more danceable", "more energetic", "higher tempo", "more valent", "louder", "more insturmental", "more speechy"]
+			var start = "This song is "
+			var end = " than other songs you listened to this month. </br>"
+			var time = parseInt(stats[1]).toString() + ":00";
+			d3.select('#searchresults')
+				.html("You listened to this song " + stats[0] + " times in the past month, usually at " + time + ". </br> </br>" + start + stats[2] + "% " + phrases[0] + end + start + stats[3] + "% " + phrases[1] + end + start + stats[4] + "% " + phrases[2] + end + start + stats[5] + "% " + phrases[3] + end + start + stats[6] + "% " + phrases[4] + end + start + stats[7] + "% " + phrases[5] + end + start + stats[8] + "% " + phrases[6] + end + start + stats[9] + "% " + phrases[7] + end);
+		}
+	}
 
-    var uniques = songs.filter(function(value) {
-        return ++frequency[value] == 1;
-    });
+	// creates stats array for specified song
+	function getStats(song) {
+		// get number of times song was listened to in the month and average time
+		var count = 0;
+		var times = [];
+		rawData.forEach((d) => (d.Track.toLowerCase() === song && count++ && times.push(parseInt((d.Time.split(":")[0] + 16)%24))));
+		let total = 0;
+		for(var i = 0; i < times.length; i++) {
+			total += times[i];
+		}
+		var avgTime = total / times.length;
 
-    return uniques.sort(function(a, b) {
-        return frequency[b] - frequency[a];
-    });
-}
+		// get corresponding features for song to find percentiles
+		var ind = allSongs.indexOf(song);
+		results = [count, avgTime]
+		for (let i = 0; i < 8; i++) {
+			results.push(getPercentile(i, features[i][ind]));
+		}
+		return results;
+
+
+	}
+
+	// gets percentile of sing for each feature
+	function getPercentile(ind, val) {
+		array = features[ind]
+		//const percentile = (array, val) => {
+		let count = 0;
+		array.forEach(v => {
+			if (v < val) {
+			count++;
+			} else if (v == val) {
+			count += 0.5;
+			}
+		});
+		return (100 * count / array.length).toFixed(0);
+	}
+
+	// creates a list of all unique songs in the dataset (in most listened to least listened to order)
+	function createTopSongList() {
+		var songs = [];
+		for (i in rawData) {
+			songs.push(rawData[i].Track.toLowerCase());
+			features[0].push(rawData[i].Acousticness);
+			features[1].push(rawData[i].Danceability);
+			features[2].push(rawData[i].Energy);
+			features[3].push(rawData[i].Tempo);
+			features[4].push(rawData[i].Valence);
+			features[5].push(rawData[i].Loudness);
+			features[6].push(rawData[i].Insturmentalness);
+			features[7].push(rawData[i].Speechiness);
+		};
+		var frequency = {};
+
+		songs.forEach(function(value) { frequency[value] = 0; });
+
+		var uniques = songs.filter(function(value) {
+			return ++frequency[value] == 1;
+		});
+
+		return uniques.sort(function(a, b) {
+			return frequency[b] - frequency[a];
+		});
+	}
 });
 
 /* FUNCTIONS without rawdata */
+// shows "Data + Methods" section
+function showMethods() {
+	document.getElementById("chart").innerHTML = " "; 
+	if (document.getElementById("methods").style.backgroundColor == "rgb(212, 212, 212)") { // already been clicked
+		drawMap();
+	}
+	else {
+		document.getElementById("methods").style.backgroundColor = "#d4d4d4";
+		document.getElementById("methods").style.border = "solid gray 2px";
+		document.getElementById("chart").innerHTML = "<font size='4.5px'></br></br>   <b>Obtaining the Data</b></br> The dataset used here is a recreation of downloaded Spotify data. Spotify data takes 30 days to receive once requested, so instead, I exported my last.fm data as a .csv, and then used a python program (<b><a href='https://github.com/ezeada/clockify/blob/main/getspotifydata.py'>getspotifydata.py</a></b>) to call Spotify’s API and get the corresponding features for each track. </br></br></br><b>Processing the Data</b></br> I processed the data partially in python (<b><a href='https://github.com/ezeada/clockify/blob/main/data%20wrangler.py'>datawrangler.py</a></b>) to create a json that I could use in my visualization code. The radial heat map code requires data entries to be sorted by whatever variable is on the radial axis (in this case—music feature).  I created two sets of data with the same dataset—data with an entry for each hour of the day (for the “Day” view) and data with an entry for each day of the month (for the “Month” view).  I also pushed all entries forward by 16 hours (to adjust for time zone). </br></br>Each entry in the filtered datasets has a “scaled” Value and a “real” Value. The “real” value is the average of the given time period (the average of the hour for “Day” view and the average of the day for “Month” View). The “scaled” average is the cdf of this average among all values of this feature throughout the day. I chose cdf because it standardizes values across the different ranges that the features can take on (for example, “acousticness” ranges from 0 to 1, while tempo can be any integer and is often above 100 for dataset). Cdf also places values in the content of the dataset—this tool isn’t used to compare across different user’s datasets, but rather, create comparisons between different times for one user.</font>";
+	}
+}
 // reset colors in key (when the "reset" button is hit)
 function colorReset() {
 	document.getElementById("color").reset();
@@ -6804,6 +6813,10 @@ function changeRange() {
 
 // draws the chart 
 function drawMap() {
+	// reset "Data + Methods" button
+	
+	document.getElementById("methods").style.backgroundColor = "white"; 
+	document.getElementById("methods").style.border = "solid rgb(212, 212, 212) 2px";
 	var checkedFeatures = [];
 	var boxes = document.getElementsByClassName("featurebox");
 	for (i in boxes) {
@@ -6993,7 +7006,6 @@ function loadCircularHeatMap(dataset, dom_element_to_append_to, radial_labels, s
 			}
 		}
 		tooltip.select('.Measure').html("<b> Average " + d.Measure + ": " + d.RealAverage + "</b>");
-		//tooltip.select('.Average').html("<b> Value: " + d.Average + "</b>");
 		tooltip.style('display', 'block');
 		tooltip.style('opacity', 2);
 	})
@@ -7045,7 +7057,6 @@ function circularHeatChart(stroke, radius, numSegments) {
 	  };
 		 innerRadius = radius;
 	  segmentHeight = 20;
-	  //domain = [0, 0.5, 1],
 	  accessor = function(d) {
 		return d.ScaledAverage;
 	  },
@@ -7057,18 +7068,12 @@ function circularHeatChart(stroke, radius, numSegments) {
   
 		var offset = innerRadius + Math.ceil(data.length / numSegments) * segmentHeight;
 		g = svg.append("g")
-		  //.classed("circular-heat", true)
 		  .attr("transform", "translate(" + parseInt(margin.left + offset) + "," + parseInt(margin.top + offset) + ")");
   
-		// setting color
-		//var autoDomain = false;
 		if (domain === null) {
 		  domain = d3.extent(data, accessor); // (data, accessor)
-		  //autoDomain = true;
 		}
 		var color = d3.scale.linear().domain(domain).range(range);
-		//if (autoDomain)
-		//  domain = null;
   
 		g.selectAll("path").data(data)
 		  .enter().append("path")
@@ -7097,8 +7102,6 @@ function circularHeatChart(stroke, radius, numSegments) {
 		var segmentLabelOffset = 7;
 		var r = innerRadius + Math.ceil(data.length / numSegments) * segmentHeight + segmentLabelOffset;
 		labels = svg.append("g")
-		  //.classed("labels", true)
-		  //.classed("segment", true)
 		  .attr("transform", "translate(" + parseInt(margin.left + offset) + "," + parseInt(margin.top + offset) + ")");
   
 		labels.append("def")
