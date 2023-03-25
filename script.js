@@ -6767,6 +6767,32 @@ d3.csv(dataLink, function(rawData) {
 });
 
 /* FUNCTIONS without rawdata */
+// shows instructions 
+function showInstructions() {
+	document.getElementById("one").style.display = 'block';
+	document.getElementById("one").innerHTML = 'Click on the dropdown at the top to switch between month view and day view. </br></br></br>Check or uncheck the music features to the left to choose which to represent in your visualization.';
+	document.getElementById("two").style.display = 'block';
+	document.getElementById("two").innerHTML = 'You can adjust the color of the visualization by clicking on the key and selecting from the color picker.* </br></br><i>*Please note that hours or days without any entries (during when no music was listened to) will show up as black.</i></br></br> If you want to see exact values, you can hover over a segment and look at its tooltip under "Scaled Value".';
+	document.getElementById("three").style.display = 'block';
+	document.getElementById("three").innerHTML = "You can clip the minimum and maximum percentile values with the \"Percentile Range\" slider. </br></br>Note that segments with scaled values that fall below your minimum value or above your maximum value will automatically scale their color with white as 0th percentile and 100th percentile, respectively.";
+	document.getElementById("four").style.display = 'block';
+	document.getElementById("four").innerHTML = "Search for any song here to get all of its corresponding percentiles for that, as well as how often you listened to it and what hour on average.";
+	document.getElementById("five").style.display = 'block';
+	document.getElementById("five").innerHTML = 'Click on a segment to have the top artists and songs of that time or day show up here.     --------------------------->';
+	document.getElementById("six").style.display = 'block';
+	document.getElementById("six").innerHTML = ' Each ring represents a feature. Starting from the ring closest to the center, the rings represent acousticness, danceability, energy, tempo, valence, loudness, and speechiness. </br></br>Hover over a segment to get its average value, scaled value, and corresponding feature.';
+}
+
+// hide instructions
+function hideInstructions() {
+	document.getElementById("one").style.display = 'none';
+	document.getElementById("two").style.display = 'none';
+	document.getElementById("three").style.display = 'none';
+	document.getElementById("four").style.display = 'none';
+	document.getElementById("five").style.display = 'none';
+	document.getElementById("six").style.display = 'none';
+}
+
 // shows "Data + Methods" section
 function showMethods() {
 	document.getElementById("chart").innerHTML = " "; 
@@ -6886,7 +6912,7 @@ function loadCircularHeatMap(dataset, dom_element_to_append_to, radial_labels, s
 		top: 50,
 		right: 0,
 		bottom: 50,
-		left: 0
+		left: 50
 	};
 
 	var box = document.querySelector('#chart');
