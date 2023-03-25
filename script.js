@@ -2,6 +2,7 @@
 // link to raw data on github
 var dataLink = "https://raw.githubusercontent.com/ezeada/clockify/main/febdata.csv";
 
+// from monthlydata.json and dailydata.json created with datawrangler.py
 var filteredDataTime = [
 	{
 	   "Measure":"acousticness",
@@ -6868,7 +6869,7 @@ function drawMap() {
 	loadCircularHeatMap(newData, "#chart", checkedFeatures, segment_labels, stroke, radius, colors, numSegments, domain, viewnum);
 };
 
-// upate key gradient and values when color or percentile range is edited
+// update key gradient and values when color or percentile range is edited
 function createKey(colors, min, max) {
 	var key = document.getElementById("key");
 	key.style.background = 
@@ -6925,10 +6926,10 @@ function loadCircularHeatMap(dataset, dom_element_to_append_to, radial_labels, s
 
 	tooltip.append('div') // class for each data value we want to show in tooltop
 	.attr('class', 'Time');
-	//tooltip.append('div')
-	// .attr('class', 'Average');
 	tooltip.append('div')
 	.attr('class', 'Measure');
+	tooltip.append('div')
+	 .attr('class', 'Average');
 
 	svg.selectAll("path")
 	// click on section and reveal top artists and songs for that day or hour
@@ -7006,6 +7007,12 @@ function loadCircularHeatMap(dataset, dom_element_to_append_to, radial_labels, s
 			}
 		}
 		tooltip.select('.Measure').html("<b> Average " + d.Measure + ": " + d.RealAverage + "</b>");
+		if (d.ScaledAverage == "N/A") {
+			tooltip.select('.Average').html("<b> Scaled Value: " + d.ScaledAverage + "</b>");
+		}
+		else {
+			tooltip.select('.Average').html("<b> Scaled Value: " + d.ScaledAverage * 100 + "</b>");
+		}
 		tooltip.style('display', 'block');
 		tooltip.style('opacity', 2);
 	})
