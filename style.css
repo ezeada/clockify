@@ -263,8 +263,8 @@ label {
 
 #methods {
   position: relative;
-  margin-top: 81%;
-  margin-left: 82%;
+  margin-top: 82%;
+  margin-left: 65%;
   width: 120px;
   height: 35px;
   line-height: 35px;
@@ -274,4 +274,81 @@ label {
   text-align: center;
   font-family: Arial;
   font-size: 14px;
+  float:left;
+}
+
+#instructions {
+  position: relative;
+  margin-top: 82%;
+  margin-left: 3%;
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50px;
+  background-color: white;
+  border: solid #d4d4d4 2px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 14px;
+  float:left;
+
+}
+
+.inst {
+  position: absolute;
+  background-color: rgb(194, 232, 255);
+  filter: drop-shadow(-5px 5px 1px #16205b3a);
+  z-index: 99;
+  padding: 20px;
+  border-radius: 50px;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#one {
+  width: 170px;
+  height: 140px;
+  left: 200px;
+  top: 60px;
+  display: none;
+}
+
+#two {
+  width: 300px;
+  height: 200;
+  left: 15%;
+  top: 53%;
+  display: none;
+}
+
+#three {
+  width: 400px;
+  height: 80px;
+  left: 15%;
+  top: 75%;
+  display: none;
+}
+
+#four {
+  width: 120px;
+  height: 100px;
+  left: 75%;
+  top: 8%;
+  display: none;
+}
+
+#five {
+  width: 200px;
+  height: 40px;
+  left: 65%;
+  top: 69%;
+  display: none;
+}
+
+#six {
+  width: 200px;
+  height: 138px;
+  left: 58%;
+  top: 30%;
+  display: none;
 }
