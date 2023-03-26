@@ -6,7 +6,7 @@ https://ezeada.github.io/clockify/
 ## Motivation
 I created this tool because I listen to a lot of music (about 6 and a half hours a day). The type of music I listen to varies depending on what I'm doing, so when I'm studying (probably in the early afternoon and evening), I know from experience that I'm listening to music with a lower tempo and less lyrics, for example. I wanted to create a tool that could provide a concrete visualization for the music-listening habits I think I've acquired, and do the same for those that listen to music as frequently as I do. My sample dataset is replicated Spotify data from Jan 29th of to Feb 28th of this year. Each entry contains the artist, album, track, date, time, and corresponding Spotify features for the song. For demo purposes, the tool is already loaded with the sample dataset. 
 
-## Instructions
+## Features
 
 ### View
 With the dropdown at the top, you can switch to month view (which averages the values for each day), or back to day view (which averages the values for each hour of the day). 
